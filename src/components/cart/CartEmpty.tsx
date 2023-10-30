@@ -10,9 +10,9 @@ const CartEmpty:React.FC<any> = ({onCartToggle}) => {
             hover:scale-110'/>
             <button type='button' className='button-theme bg-gradient-to-b from-amber-500
             to-orange-500 shadow-lg shadow-orange-500 flex items-center justify-center
-            text-slate-900 py-2 gap-3 text-sm px-5 font-semibold active:scale-110 ' 
+            text-white py-2 gap-3 text-sm px-5 font-semibold active:scale-110 ' 
             onClick={onCartToggle}>
-                <ArrowLeftIcon className='w-5 h-5 text-slate-900' />
+                <ArrowLeftIcon className='w-5 h-5 text-white' />
                 <span className=''>Voltar para a loja da Nike</span>
             </button>
         </div>

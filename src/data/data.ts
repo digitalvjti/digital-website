@@ -184,8 +184,8 @@ const popularsales = {
       btn: "Comprar agora",
       img: psale2,
       price: "200",
-      color: "from-blue-600 to-blue-500",
-      shadow: "shadow-lg shadow-blue-500",
+      color: "from-black to-black", // Change to black color theme
+      shadow: "shadow-lg shadow-black", // Change to black shadow theme
     },
     {
       id: "0p0x2",
@@ -195,8 +195,8 @@ const popularsales = {
       btn: "Comprar agora",
       img: psale1,
       price: "200",
-      color: "from-red-500 to-rose-500",
-      shadow: "shadow-lg shadow-rose-500",
+      color: "from-black to-black", // Change to black color theme
+      shadow: "shadow-lg shadow-black", // Change to black shadow theme
     },
     {
       id: "0p0x3",
@@ -206,8 +206,8 @@ const popularsales = {
       btn: "Comprar agora",
       img: psale3,
       price: "200",
-      color: "from-violet-500 to-indigo-500",
-      shadow: "shadow-lg shadow-violet-500",
+      color: "from-black to-black", // Change to black color theme
+      shadow: "shadow-lg shadow-black", // Change to black shadow theme
     },
   ],
 };
@@ -244,8 +244,8 @@ const toprateslaes = {
       btn: "Comprar agora",
       img: product7,
       price: "150",
-      color: "from-sky-600 to-indigo-600",
-      shadow: "shadow-lg shadow-blue-500",
+      color: "from-black to-black", // Change to black color theme
+      shadow: "shadow-lg shadow-black", // Change to black shadow theme
     },
     {
       id: "0M0x2",
@@ -255,8 +255,8 @@ const toprateslaes = {
       btn: "Comprar agora",
       img: product2,
       price: "150",
-      color: "from-green-500 to-emerald-500",
-      shadow: "shadow-lg shadow-green-500",
+      color: "from-black to-black", // Change to black color theme
+      shadow: "shadow-lg shadow-black", // Change to black shadow theme
     },
     {
       id: "0M0x3",
@@ -266,8 +266,8 @@ const toprateslaes = {
       btn: "Comprar agora",
       img: product3,
       price: "150",
-      color: "from-red-500 to-rose-500",
-      shadow: "shadow-lg shadow-rose-500",
+      color: "from-black to-black", // Change to black color theme
+      shadow: "shadow-lg shadow-black", // Change to black shadow theme
     },
     {
       id: "0M0x4",
@@ -277,8 +277,8 @@ const toprateslaes = {
       btn: "Comprar agora",
       img: product4,
       price: "150",
-      color: "from-orange-500 to-amber-500",
-      shadow: "shadow-lg shadow-orange-500",
+      color: "from-black to-black", // Change to black color theme
+      shadow: "shadow-lg shadow-black", // Change to black shadow theme
     },
     {
       id: "0M0x5",
@@ -288,8 +288,8 @@ const toprateslaes = {
       btn: "Comprar agora",
       img: product5,
       price: "150",
-      color: "from-gray-900 to-yellow-500",
-      shadow: "shadow-lg shadow-yellow-500",
+      color: "from-black to-black", // Change to black color theme
+      shadow: "shadow-lg shadow-black", // Change to black shadow theme
     },
     {
       id: "0M0x6",
@@ -299,8 +299,8 @@ const toprateslaes = {
       btn: "Comprar agora",
       img: product6,
       price: "150",
-      color: "from-blue-500 to-cyan-500",
-      shadow: "shadow-lg shadow-cyan-500",
+      color: "from-black to-black", // Change to black color theme
+      shadow: "shadow-lg shadow-black", // Change to black shadow theme
     },
     {
       id: "0M0x7",
@@ -310,8 +310,8 @@ const toprateslaes = {
       btn: "Comprar agora",
       img: product1,
       price: "150",
-      color: "from-yellow-500 to-yellow-500",
-      shadow: "shadow-lg shadow-yellow-500",
+      color: "from-black to-black", // Change to black color theme
+      shadow: "shadow-lg shadow-black", // Change to black shadow theme
     },
     {
       id: "0M0x8",
@@ -321,8 +321,8 @@ const toprateslaes = {
       btn: "Comprar agora",
       img: product9,
       price: "150",
-      color: "from-[#936550] to-orange-900",
-      shadow: "shadow-lg shadow-orange-800",
+      color: "from-black to-black", // Change to black color theme
+      shadow: "shadow-lg shadow-black", // Change to black shadow theme
     },
     {
       id: "0M0x9",
@@ -332,8 +332,8 @@ const toprateslaes = {
       btn: "Comprar agora",
       img: product10,
       price: "150",
-      color: "from-indigo-700 to-indigo-700",
-      shadow: "shadow-lg shadow-indigo-500",
+      color: "from-black to-black", // Change to black color theme
+      shadow: "shadow-lg shadow-black", // Change to black shadow theme
     },
     {
       id: "0M0x10",
@@ -343,8 +343,8 @@ const toprateslaes = {
       btn: "Comprar agora",
       img: product12,
       price: "150",
-      color: "from-green-600 to-lime-500",
-      shadow: "shadow-lg shadow-lime-500",
+      color: "from-black to-black", // Change to black color theme
+      shadow: "shadow-lg shadow-black", // Change to black shadow theme
     },
     {
       id: "0M0x11",
@@ -354,8 +354,8 @@ const toprateslaes = {
       btn: "Comprar agora",
       img: product11,
       price: "150",
-      color: "from-slate-900 to-black",
-      shadow: "shadow-lg shadow-black",
+      color: "from-black to-black", // Change to black color theme
+      shadow: "shadow-lg shadow-black", // Change to black shadow theme
     },
     {
       id: "0M0x12",
@@ -365,8 +365,8 @@ const toprateslaes = {
       btn: "Comprar agora",
       img: product8,
       price: "150",
-      color: "from-blue-900 to-blue-500",
-      shadow: "shadow-lg shadow-blue-500",
+      color: "from-black to-black", // Change to black color theme
+      shadow: "shadow-lg shadow-black", // Change to black shadow theme
     },
   ],
 };

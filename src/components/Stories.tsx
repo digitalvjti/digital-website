@@ -22,7 +22,7 @@ const Stories: React.FC<IStory> = ({ title, news }) => {
                         },
                     }}>
                         {news.map((val, i) => (
-                            <SplideSlide key={i} className="mb-0.5" >
+                            <SplideSlide key={i} className="bg-black text-white mb-0.5" >
                                 <div className="relative grid items-center gap-4 pb-2 rounded-lg shadow shadow-slate-200 ring-1 ring-slate-200">
                                     <div className="flex items-center justify-center">
                                         <img
