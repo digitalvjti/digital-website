@@ -154,8 +154,8 @@ export interface ICartItems {
 }
 
 const heroapi = {
-  title: "Jogue com o Nike elétrico",
-  subtitle: "Tênis Adaptar 2.0",
+  title: "EMPOWERING",
+  subtitle: "YOUR DIGITAL DREAMS",
   img: heroimg,
   btntext: "Explorar produto",
   videos: [
