@@ -1,5 +1,5 @@
 <h1 align="center">
-  Nike Store Clone <img width="25px" src="https://static.vecteezy.com/ti/vetor-gratis/p3/10994232-nike-logotipo-design-de-roupas-pretas-icone-abstrato-futebol-ilustracaoial-com-fundo-branco-gratis-vetor.jpg"/>
+  DigitalVJTI Website 
 </h1>
 
  <p align="center">
@@ -10,19 +10,14 @@
 
 <br>
 
-![Resultado final do projeto](https://user-images.githubusercontent.com/128244805/235039785-cb941e7f-76e0-46e4-b80d-5826d9e38e6a.png)
 
 <br>
 
-## 📝 Descrição 
+## 📝 Description
 
-Meu portfólio criado com o objetivo de mostrar meus projetos. 
+Repo for the official website of VJTI
 
-- Website: [nike-storee](https://nike-storee.vercel.app/)
-
-## 🚀 Tecnologias
-
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+## 🚀 Technologies
 
 - NextJS
 - TypeScript
@@ -31,17 +26,3 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Tailwind CSS
 
 
- 
-## 💻 Autor<br>
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/felipejohnsonn">
-        <img src="https://avatars.githubusercontent.com/u/128244805?s=96&v=4" width="100px;" /><br>
-        <sub>
-          <b>Felipe Johnson</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
