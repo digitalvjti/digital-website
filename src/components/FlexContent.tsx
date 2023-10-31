@@ -8,14 +8,14 @@ const FlexContent:React.FC<IHiglight> = ({ifExists,title,heading, img, url, text
         lg:justify-center nike-container ${!ifExists ? 'flex-row':'flex-row-reverse'}`}>
             <div className='max-w-lg lg:max-w-none w-full md:text-center grid items-center
             lg:justify-items-center'>
-                <h1 className='text-4xl sm:text-3xl  font-bold text-gradient'>{heading}</h1>
+                <h1 className='text-white text-4xl sm:text-3xl  font-bold '>{heading}</h1>
                 <h1 className='text-5xl lg:text-4xl md:text-3xl
-                sm:text-2xl font-bold text-slate-900 filter
+                sm:text-2xl font-bold text-white filter
                 drop-shadow-lg'>{title}</h1>
-                <p className='xl:text-sm my-4 text-slate-900'>{text}</p>
+                <p className='xl:text-sm my-4 text-white'>{text}</p>
                 <a href={url} className="flex items-center" target={"_blank"}
                 role="button">
-                    <button type='button' className='button-theme bg-slate-900 shadow-slate-900
+                    <button type='button' className='button-theme shadow-white
                     text-slate-100 py-1.5'>{btn}</button>
                 </a>
             </div>

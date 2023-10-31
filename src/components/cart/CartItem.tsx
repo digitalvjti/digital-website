@@ -29,7 +29,7 @@ const CartItem: React.FC<ICartItems> = ({ id, title, text, img, color, shadow, p
           </div>
           <div className='grid items-center gap-4'>
             <div className='grid items-center leading-none'>
-              <h1 className='font-medium text-lg text-slate-900 lg:text-sm'>{title}</h1>
+              <h1 className='font-medium text-lg text-white lg:text-sm'>{title}</h1>
               <p className='text-sm text-slate-800 lg:text-xs'>{text}</p>
             </div>
             <div className='flex items-center justify-around w-full'>

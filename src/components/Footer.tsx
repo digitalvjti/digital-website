@@ -5,7 +5,7 @@ import { IFooterAPI } from '../data/data'
 const Footer:React.FC<IFooterAPI> = ({titles, links}) => {
   return (
     <>
-      <footer className='bg-theme pt-7 pb-5'>
+      <footer className='bg-black pt-7 pb-5'>
         <div className='nike-container text-slate-200'>
           <div className='grid items-start grid-cols-3 max-w-2xl w-full m-auto 
           md:max-w-none md:gap-5'>
