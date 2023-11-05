@@ -1,8 +1,22 @@
-import { Cart, FlexContent, Footer, Hero, Navbar, Sales, Stories } from "./components";
-import heroapi, { popularsales, toprateslaes, highlight, sneaker, story, footerAPI } from './data/data'
+import {
+  Cart,
+  FlexContent,
+  Footer,
+  Hero,
+  Navbar,
+  Sales,
+  Stories,
+} from "./components";
+import heroapi, {
+  popularsales,
+  toprateslaes,
+  highlight,
+  sneaker,
+  story,
+  footerAPI,
+} from "./data/data";
 
 function App() {
-
   return (
     <>
       <Navbar />
@@ -15,7 +29,7 @@ function App() {
         <FlexContent {...sneaker} />
         <Stories {...story} />
       </main>
-      <Footer {...footerAPI}/>
+      <Footer {...footerAPI} />
     </>
   );
 }
