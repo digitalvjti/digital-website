@@ -1,6 +1,5 @@
 import React from 'react'
 import { IHeroAPI } from '../data/data'
-import Clips from './utils/Clips'
 import SocialLink from './utils/SocialLink'
 
 const Hero: React.FC<IHeroAPI> = ({ title, subtitle, btntext, img, sociallinks, videos }) => {

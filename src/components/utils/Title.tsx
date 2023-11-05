@@ -1,5 +1,4 @@
 import React from 'react'
-import { IPopularSales } from '../../data/data'
 
 
 const Title:React.FC<boolean | any> = ({title}) => {

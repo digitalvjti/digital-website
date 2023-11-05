@@ -25,13 +25,12 @@ import product10 from "../assets/product10.png";
 import product11 from "../assets/product11.png";
 import product12 from "../assets/product12.png";
 
-
 import facebook from "../assets/facebook.svg";
 import instagram from "../assets/instagram.svg";
 import twitter from "../assets/twitter.svg";
 import youtube from "../assets/youtube.svg";
 import messenger from "../assets/messenger.svg";
-
+import linkedin from "../assets/linkedin.svg";
 
 export interface Video {
   imgsrc: string;
@@ -75,7 +74,7 @@ export interface Item5 {
 }
 
 export interface IPopularSales {
-  ifExists: boolean
+  ifExists: boolean;
   title: string;
   items: Item1[];
 }
@@ -112,7 +111,7 @@ export interface Item2 {
 }
 
 export interface ITopRatesSlaes {
-  ifExists: boolean
+  ifExists: boolean;
   title: string;
   items: Item2[];
 }
@@ -143,14 +142,14 @@ export interface IFooterAPI {
 }
 
 export interface ICartItems {
-  cartQuantity:number
-  color:string
-  id:string
-  img:string
-  price:string
-  shadow:string
-  text: string
-  title: string
+  cartQuantity: number;
+  color: string;
+  id: string;
+  img: string;
+  price: string;
+  shadow: string;
+  text: string;
+  title: string;
 }
 
 const heroapi = {
@@ -169,9 +168,10 @@ const heroapi = {
     { icon: instagram },
     { icon: twitter },
     { icon: youtube },
+    { icon: linkedin },
   ],
 };
-export default heroapi
+export default heroapi;
 const popularsales = {
   ifExists: true,
   title: "Vendas Populares",
@@ -371,7 +371,6 @@ const toprateslaes = {
   ],
 };
 
-
 const story = {
   title: "Top Stories",
   news: [
@@ -383,7 +382,7 @@ const story = {
       like: "3/5",
       time: "11 Mins",
       by: "Jared Ebanks",
-      btn: "consulte Mais informação"
+      btn: "consulte Mais informação",
     },
     {
       title: "Bro’s Nike Zoom Freak 4",
@@ -393,7 +392,7 @@ const story = {
       like: "5/5",
       url: "/",
       by: "Michael Le",
-      btn: "consulte Mais informação"
+      btn: "consulte Mais informação",
     },
     {
       title: "Nike Air Max Plus",
@@ -403,7 +402,7 @@ const story = {
       url: "/",
       like: "5/5",
       by: "Michael Le",
-      btn: "consulte Mais informação"
+      btn: "consulte Mais informação",
     },
     {
       title: "Air Jordan Retro High OG",
@@ -413,7 +412,7 @@ const story = {
       url: "/",
       like: "5/5",
       by: "Sneaker News",
-      btn: "consulte Mais informação"
+      btn: "consulte Mais informação",
     },
     {
       title: "Nike Air Zoom GT Cut 2",
@@ -423,7 +422,7 @@ const story = {
       url: "/",
       like: "3/5",
       by: "Jared Ebanks",
-      btn: "consulte Mais informação"
+      btn: "consulte Mais informação",
     },
     {
       title: "Puma Announces Breanna",
@@ -433,7 +432,7 @@ const story = {
       url: "/",
       like: "3/5",
       by: "Jared Ebanks",
-      btn: "consulte Mais informação"
+      btn: "consulte Mais informação",
     },
     {
       title: "Nike Air Force Orange Color",
@@ -443,7 +442,7 @@ const story = {
       time: "6 Days",
       like: "4/5",
       by: "Micael Le",
-      btn: "consulte Mais informação"
+      btn: "consulte Mais informação",
     },
     {
       title: "Hello Kitty and Adidas",
@@ -453,7 +452,7 @@ const story = {
       time: "5 Days",
       like: "4/5",
       by: "Micael Le",
-      btn: "consulte Mais informação"
+      btn: "consulte Mais informação",
     },
     {
       title: "Air Force 1 Low Expands",
@@ -463,14 +462,17 @@ const story = {
       time: "5 Days",
       like: "4/5",
       by: "Micael Le",
-      btn: "consulte Mais informação"
+      btn: "consulte Mais informação",
     },
   ],
 };
 
-
 const footerAPI = {
-  titles: [{ title: "About Nike" }, { title: "Get Help" }, { title: "Company" }],
+  titles: [
+    { title: "About Nike" },
+    { title: "Get Help" },
+    { title: "Company" },
+  ],
   links: [
     [
       { link: "Notícias" },
@@ -496,8 +498,7 @@ const footerAPI = {
       { link: "Diário da Nike" },
       { link: "Envie-nos um feedback" },
     ],
-  ]
+  ],
 };
-
 
 export { footerAPI, story, sneaker, highlight, toprateslaes, popularsales };
